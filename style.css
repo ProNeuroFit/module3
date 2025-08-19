@@ -547,7 +547,11 @@ header .data span {
   margin: 20px auto;
 }
 
-@keyframes fadeIn {
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+@keyframes favdeIn {
   from {
     opacity: 0;
     transform: scale(0.98);
@@ -566,6 +570,9 @@ header .data span {
 }
 
 @media (max-width: 998px) {
+  .mb-0 {
+    margin-bottom: 0 !important;
+  }
   body {
     overflow-x: hidden;
   }
