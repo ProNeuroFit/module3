@@ -461,7 +461,6 @@ b {
   display: flex;
   max-width: 1300px;
   width: 100vw;
-  flex-wrap: wrap;
   margin: auto;
   gap: 1vw;
 }
@@ -787,6 +786,7 @@ header .data span {
   }
   .data-grid {
     width: auto;
+    flex-wrap: wrap;
   }
   header .data span {
     line-height: 1.3;
